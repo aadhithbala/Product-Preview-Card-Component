@@ -10,6 +10,7 @@
   --ff-primary: 'Montserrat', sans-serif;
   --ff-accent: 'Fraunces', serif;
 
+  --fs-300: 0.75rem;
   --fs-400: 0.875rem;
   --fs-600: 2rem;
 
@@ -78,7 +79,7 @@ body {
 
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-medium);
 
   color: var(--clr-text-400);
 }
@@ -100,7 +101,8 @@ body {
 
 .category {
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+  font-size: var(--fs-300);
 }
 
 .title {
@@ -129,6 +131,11 @@ body {
 /* Button */
 
 .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+
   cursor: pointer;
   border: none;
   background-color: var(--clr-accent-400);
@@ -141,4 +148,7 @@ body {
   text-decoration: none;
   color: var(--clr-neutral-400);
   font-weight: var(--fw-bold);
+}
+
+.shopping-cart-icon {
 }
