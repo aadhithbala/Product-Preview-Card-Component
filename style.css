@@ -110,3 +110,35 @@ body {
 
   line-height: 1;
 }
+
+/* Prices */
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price__discount {
+  font-family: var(--ff-accent);
+  font-size: var(--fs-600);
+
+  color: var(--clr-accent-400);
+}
+
+/* Button */
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: var(--clr-accent-400);
+  padding: 0.8rem 1rem;
+
+  border-radius: 0.625rem;
+}
+
+.button-link {
+  text-decoration: none;
+  color: var(--clr-neutral-400);
+  font-weight: var(--fw-bold);
+}
