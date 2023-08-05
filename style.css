@@ -10,10 +10,11 @@
   --ff-primary: 'Montserrat', sans-serif;
   --ff-accent: 'Fraunces', serif;
 
-  --fs-regular: 0.875rem;
-  --fs-bold: 3.5rem;
+  --fs-400: 0.875rem;
+  --fs-600: 2rem;
 
   --fw-regular: 500;
+  --fw-medium: 600;
   --fw-bold: 700;
 }
 
@@ -33,6 +34,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  height: 100vh;
 }
 
 /* Improve media defaults */
@@ -65,3 +67,46 @@ h6 {
 }
 
 /* General Styling */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+
+  background-color: var(--clr-bg-primary);
+
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-regular);
+
+  color: var(--clr-text-400);
+}
+
+/* Product Styling */
+
+.product {
+  background-color: var(--clr-neutral-400);
+
+  border-radius: 0.625rem 0.625rem 0 0;
+  overflow: hidden;
+}
+
+.product__content {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.title {
+  color: var(--clr-text-600);
+  font-family: var(--ff-accent);
+  font-size: var(--fs-600);
+
+  line-height: 1;
+}
