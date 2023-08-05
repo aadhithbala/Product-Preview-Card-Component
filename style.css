@@ -1,3 +1,22 @@
+:root {
+  --clr-bg-primary: hsl(30, 38%, 92%);
+  --clr-neutral-400: hsl(0, 0%, 100%);
+
+  --clr-accent-400: hsl(158, 36%, 37%);
+
+  --clr-text-600: hsl(212, 21%, 14%);
+  --clr-text-400: hsl(228, 12%, 48%);
+
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-accent: 'Fraunces', serif;
+
+  --fs-regular: 0.875rem;
+  --fs-bold: 3.5rem;
+
+  --fw-regular: 500;
+  --fw-bold: 700;
+}
+
 /* Use a more-intuitive box-sizing model */
 *,
 *::before,
